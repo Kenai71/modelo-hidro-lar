@@ -153,7 +153,7 @@ export default function Home() {
             className="hero-image-container"
           >
             <div className="hero-image-wrapper">
-              <img src="/images/hero-hvac.png" alt="Instalação de Ar Condicionado" />
+              <img src="/images/hero-hvac-new.png" alt="Instalação de Ar Condicionado" />
             </div>
             <div className="hero-floating-card">
               <CheckCircle2 className="w-8 h-8 text-gradient" />
