@@ -47,7 +47,7 @@ export default function Home() {
       id: "assistencia",
       title: "Assistência Técnica",
       desc: "Diagnóstico rápido e conserto de aparelhos com peças originais e profissionais certificados.",
-      img: "/images/technical-support.png",
+      img: "/images/tech-support-new.png",
       icon: <Shield className="w-6 h-6" />
     }
   ];
@@ -176,28 +176,28 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <div className="services-grid">
+          <div className="services-grid-premium">
             {services.map((service, index) => (
               <motion.div 
                 key={service.id}
-                initial={{ opacity: 0, y: 30 }}
+                initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="service-card"
+                transition={{ duration: 0.7, delay: index * 0.15 }}
+                className="service-card-premium"
               >
-                <div className="service-img-wrapper">
-                  <img src={service.img} alt={service.title} />
-                  <div className="service-icon-badge">
+                <img src={service.img} alt={service.title} className="service-img-bg" />
+                <div className="service-overlay-premium">
+                  <div className="service-icon-premium">
                     {service.icon}
                   </div>
-                </div>
-                <div className="service-content">
-                  <h3>{service.title}</h3>
-                  <p>{service.desc}</p>
-                  <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="service-link">
-                    Solicitar orçamento &rarr;
-                  </a>
+                  <div className="service-content-premium">
+                    <h3>{service.title}</h3>
+                    <p>{service.desc}</p>
+                    <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="service-link-premium">
+                      Solicitar orçamento &rarr;
+                    </a>
+                  </div>
                 </div>
               </motion.div>
             ))}
