@@ -567,9 +567,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .cta-banner p {
-  font-size: 1.1rem;
-  color: var(--ice-50);
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: var(--white);
   margin-bottom: 2.5rem;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  line-height: 1.5;
 }
 
 .btn-whatsapp {
