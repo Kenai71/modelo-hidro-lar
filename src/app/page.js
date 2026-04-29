@@ -33,7 +33,7 @@ export default function Home() {
       id: "manutencao",
       title: "Manutenção",
       desc: "Manutenção preventiva e corretiva para garantir maior vida útil e máxima eficiência dos seus equipamentos.",
-      img: "/images/maintenance-ac.png",
+      img: "/images/maintenance-ac.jpeg",
       icon: <Wrench className="w-6 h-6" />
     },
     {
@@ -47,7 +47,7 @@ export default function Home() {
       id: "assistencia",
       title: "Assistência Técnica",
       desc: "Diagnóstico rápido e conserto de aparelhos com peças originais e profissionais certificados.",
-      img: "/images/tech-support-new.png",
+      img: "/images/tech-support-new.jpeg",
       icon: <Shield className="w-6 h-6" />
     }
   ];
