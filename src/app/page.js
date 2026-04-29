@@ -37,13 +37,6 @@ export default function Home() {
       icon: <Wrench className="w-6 h-6" />
     },
     {
-      id: "vendas",
-      title: "Vendas de Ar Condicionado",
-      desc: "Trabalhamos com as melhores marcas do mercado. Consultoria especializada para a escolha do aparelho ideal.",
-      img: "/images/sales-ac.png",
-      icon: <ShoppingCart className="w-6 h-6" />
-    },
-    {
       id: "projetos",
       title: "Projetos",
       desc: "Projetos de engenharia para sistemas de refrigeração comercial e industrial, focados em eficiência energética.",
@@ -323,7 +316,6 @@ export default function Home() {
               <div className="footer-links">
                 <a href="#servicos" className="footer-link">Manutenção</a>
                 <a href="#servicos" className="footer-link">Projetos</a>
-                <a href="#servicos" className="footer-link">Vendas</a>
               </div>
             </div>
 
